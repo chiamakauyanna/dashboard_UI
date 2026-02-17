@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<ProjectLayout />}>
-          <Route path="/overview" element={<Overview />} />
+          <Route path="/" element={<Overview />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/diet_detail" element={<DietDetail />} />
