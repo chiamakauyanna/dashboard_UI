@@ -1,4 +1,4 @@
-import TaskProgressCard from "./TaskProgressCard";
+import TaskProgressCard from "./cards/TaskProgressCard";
 import running from "../../assets/running.png";
 import sleeping from "../../assets/sleeping.png";
 import lifting from "../../assets/weightlifting.png";

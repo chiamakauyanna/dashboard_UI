@@ -1,4 +1,4 @@
-import ExerciseCard from "./ExerciseCard";
+import ExerciseCard from "./cards/ExerciseCard";
 import sumo from "../../assets/sumo-squat.png";
 import lunge from "../../assets/front-lunge.png";
 import abduction from "../../assets/leg-abduction.png";

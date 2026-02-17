@@ -1,4 +1,4 @@
-import PopularWorkoutCard from "./PopularWorkoutCard";
+import PopularWorkoutCard from "./cards/PopularWorkoutCard";
 import piriformis from "../../assets/workout1.png";
 import frankensteins from "../../assets/workout2.png";
 import rapid from "../../assets/workout3.png";

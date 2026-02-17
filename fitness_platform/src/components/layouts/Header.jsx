@@ -5,7 +5,7 @@ import profilePhoto from "../../assets/19.png";
 
 const Header = () => {
   return (
-    <header className="bg-primary flex h-18 items-center justify-between gap-4 px-10 shadow-[0_0_20px_5px_rgba(5,23,34,0.05)]">
+    <header className="bg-primary flex h-18 items-center justify-between gap-4 px-10 shadow-lg">
       <div className="flex h-9 w-full max-w-112.5 items-center gap-3 rounded-lg border border-[#dee2e6] bg-[#f5f5f5] p-3">
         <CiSearch size={21} color="#8B8B8B" />
 
@@ -22,8 +22,9 @@ const Header = () => {
         <div className="flex h-9.5 w-9.5 items-center justify-center rounded-[10px] bg-[#F5F5F5]">
           <CiDark color="#8B8B8B" size={22} />
         </div>
-        <div className="flex h-9.5 w-9.5 items-center justify-center rounded-[10px] bg-[#F5F5F5]">
+        <div className="relative flex h-9.5 w-9.5 items-center justify-center rounded-[10px] bg-[#F5F5F5]">
           <PiBell color="#8B8B8B" size={22} />
+          <div className="bg-accent absolute top-0 right-0 h-3 w-3 rounded-full"></div>
         </div>
         <div className="flex h-9.5 w-9.5 items-center justify-center rounded-[10px] bg-[#F5F5F5]">
           <IoMdSettings color="#8B8B8B" size={22} />

@@ -5,7 +5,7 @@ import gym from "../../assets/weight.png";
 import yoga from "../../assets/yoga.png";
 import stretch from "../../assets/stretching.png";
 import arm from "../../assets/arm.png";
-import CategoriesCard from "./CategoriesCard";
+import CategoriesCard from "./cards/CategoriesCard";
 
 const Training = () => {
   return (

@@ -1,4 +1,4 @@
-import CircularProgress from "../common/CircularProgress";
+import CircularProgress from "../../common/CircularProgress";
 
 const TaskProgressCard = ({ img, alt, task, value, color, progress, text }) => {
   return (
