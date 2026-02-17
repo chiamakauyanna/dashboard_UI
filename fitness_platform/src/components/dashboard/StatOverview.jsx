@@ -17,7 +17,7 @@ const StatOverview = () => {
         </StatCard>
         <StatCard title="Water" color="bg-[#FF7042]">
           <div className="pl-10">
-            <CircularProgress text={2.25} />
+            <CircularProgress text={2.25} alttext='litres'/>
           </div>
         </StatCard>
         <StatCard title="Calories" color="bg-[#2196F3]">

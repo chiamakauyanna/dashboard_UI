@@ -5,6 +5,7 @@ const CircularProgress = ({
   color = "#ffffff",
   trackColor = "rgba(255,255,255,0.3)",
   text= '',
+  alttext= '',
 }) => {
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
@@ -40,8 +41,8 @@ const CircularProgress = ({
 
       {/* Center content */}
       <div className="absolute text-center text-sm">
-        <p className="font-semibold text-white mb-3">{text}</p>
-        <p className="font-semibold text-white">Liters</p>
+        <p className="font-semibold mb-3">{text}</p>
+        <p className="font-semibold text-white">{alttext}</p>
       </div>
     </div>
   );

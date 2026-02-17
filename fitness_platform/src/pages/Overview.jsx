@@ -1,5 +1,6 @@
 import Charts from "../components/dashboard/Charts";
 import StatOverview from "../components/dashboard/StatOverview";
+import TaskProgress from "../components/dashboard/TaskProgress";
 
 const Overview = () => {
   return (
@@ -8,6 +9,7 @@ const Overview = () => {
       <div>
         <div className="">
           <Charts />
+          <TaskProgress />
         </div>
       </div>
     </div>
