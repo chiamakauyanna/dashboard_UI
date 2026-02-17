@@ -3,7 +3,7 @@ import circularChart from "../../assets/pie-chart.png";
 
 const Charts = () => {
   return (
-    <div className="mt-6 flex gap-4">
+    <div className="mt-6 flex gap-4 w-[939.08px]">
       <div className="h-93 w-[457.53px] rounded-[17px] bg-white shadow">
         <div className="mx-6 my-3 flex items-center justify-between">
           <p className="font-medium">Activity</p>
