@@ -13,7 +13,7 @@ const Training = () => {
       <div className="mt-6 flex h-[169.8px] items-center justify-between rounded-[17px] bg-[#E7FBFB] pl-4 shadow">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold">Full Body Toning Workout</h2>
-          <p className="text-sm font-light">
+          <p className="text-sm font-medium text-[#9D9D9D]">
             Incircuits circuits to work muscle
           </p>
           <button className="bg-accent mt-7 flex items-center justify-center rounded-[5px] px-6 py-3 text-gray-100">

@@ -8,7 +8,7 @@ const TaskProgressCard = ({ img, alt, task, value, color, progress, text }) => {
           <img src={img} alt={alt} />
           <div>
             <p className="font-semibold">{task}</p>
-            <p className="font-light text-[14px]">{value}</p>
+            <p className="text-sm font-medium text-[#9D9D9D]">{value}</p>
           </div>
         </div>
 
