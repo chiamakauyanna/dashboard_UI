@@ -2,7 +2,7 @@ import DietHeading from "../components/dietDetail/DietHeading";
 import Ingredients from "../components/dietDetail/Ingredients";
 import Direction from "../components/dietDetail/Direction";
 import NutritionFacts from "../components/dietDetail/NutritionFacts";
-import DietReviews from "../components/dietDetail/DietReviews";
+import DietComments from "../components/dietDetail/DietComments";
 import DietNutrientChart from "../components/dietDetail/DietNutrientChart";
 
 const DietDetail = () => {
@@ -20,7 +20,7 @@ const DietDetail = () => {
         </div>
       </div>
       <div className="-mx-2">
-        <DietReviews />
+        <DietComments />
       </div>
     </div>
   );

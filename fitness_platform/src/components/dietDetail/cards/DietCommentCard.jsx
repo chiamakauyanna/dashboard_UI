@@ -1,4 +1,4 @@
-const DietReviewCard = ({ profilepic, name, rating, review }) => {
+const DietCommentCard = ({ profilepic, name, rating, review }) => {
   return (
     <div className="h-48.75 w-98.75 rounded-xl bg-white p-6 shadow">
       <div className="flex items-center gap-4">
@@ -13,4 +13,4 @@ const DietReviewCard = ({ profilepic, name, rating, review }) => {
   );
 };
 
-export default DietReviewCard;
+export default DietCommentCard;
