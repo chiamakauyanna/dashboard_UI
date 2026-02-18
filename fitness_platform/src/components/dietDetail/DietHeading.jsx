@@ -1,0 +1,46 @@
+import scrambledEggs1 from "../../assets/diet1.png";
+import scrambledEggs2 from "../../assets/diet2.png";
+import DietPrepCard from "./cards/DietPrepCard";
+
+const DietHeading = () => {
+  return (
+    <div className="mt-6 h-[653.16px] w-[1076.66px] rounded-[17px] bg-white p-6 shadow">
+      <div className="flex items-center justify-center gap-4">
+        <img src={scrambledEggs1} alt="picture of scrambled eggs" />
+        <img src={scrambledEggs2} alt="picture of scrambled eggs" />
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between">
+          <div className="bg-accent/20 mt-6 rounded-md px-3 py-2">
+            <p className="text-accent text-xs font-medium">Breakfast</p>
+          </div>
+          <p className="text-sm font-medium"> 4.8/5 (+220 reviews)</p>
+        </div>
+
+        <div className="mt-2">
+          <h2 className="text-[24px] font-bold">
+            Scrambled Eggs with Turkey Bacon and Sauteed Spinach
+          </h2>
+          <p className="text-[14px] font-medium text-[#9D9D9D]">
+            This nutritious breakfast combines high-quality protein and healthy
+            fats to fuel your day. The scrambled eggs provide essential amino
+            acids, while the turkey bacon adds a lean source of protein. Sautéed
+            spinach contributes vitamins and minerals, making this dish both
+            satisfying and health-conscious.
+          </p>
+        </div>
+        <div className="mt-6 grid grid-cols-3 justify-items-start gap-6">
+          <DietPrepCard text="Eat Time" value="8.00 AM" />
+          <DietPrepCard text="Prep Time" value="5 minutes" />
+          <DietPrepCard text="Cook Time" value="10 minutes" />
+          <DietPrepCard text="Difficulty" value="Medium" />
+          <DietPrepCard text="Total Steps" value="4 Steps" />
+          <DietPrepCard text="Health Score" value="85/100" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default DietHeading;
