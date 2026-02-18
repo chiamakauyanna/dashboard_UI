@@ -7,7 +7,7 @@ import DietNutrientChart from "../components/dietDetail/DietNutrientChart";
 
 const DietDetail = () => {
   return (
-    <div className="">
+    <div>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_526.33px]">
         <div className="">
           <DietHeading />
@@ -19,7 +19,9 @@ const DietDetail = () => {
           <NutritionFacts />
         </div>
       </div>
-      <DietReviews />
+      <div className="-mx-2">
+        <DietReviews />
+      </div>
     </div>
   );
 };

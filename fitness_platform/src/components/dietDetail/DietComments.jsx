@@ -1,10 +1,10 @@
-import DietReviewCard from "./cards/DietReviewCard";
+import DietCommentCard from "./cards/DietCommentCard";
 import pic from "../../assets/samantha-lee.png";
 
-const DietReviews = () => {
+const DietComments = () => {
   return (
     <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center">
-      <DietReviewCard
+      <DietCommentCard
         profilepic={pic}
         name="Samantha Lee"
         rating="5/5"
@@ -12,7 +12,7 @@ const DietReviews = () => {
 I love the fresh taste of spinach, and it’s easy to add
 other veggies or spices!"
       />
-      <DietReviewCard
+      <DietCommentCard
         profilepic={pic}
         name="David Chen"
         rating="4.7/5"
@@ -20,7 +20,7 @@ other veggies or spices!"
 for extra veggies. The turkey bacon is a nice, lean
 alternative to regular bacon."
       />
-      <DietReviewCard
+      <DietCommentCard
         profilepic={pic}
         name="Jessica Moore"
         rating="4.9/5"
@@ -28,7 +28,7 @@ alternative to regular bacon."
 eggs, spinach, and turkey bacon is both tasty and
 nutritious. Highly recommend!"
       />
-      <DietReviewCard
+      <DietCommentCard
         profilepic={pic}
         name="David Chen"
         rating="4.7/5"
@@ -40,4 +40,4 @@ alternative to regular bacon."
   );
 };
 
-export default DietReviews;
+export default DietComments;
