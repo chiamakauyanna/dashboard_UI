@@ -1,6 +1,6 @@
 const ProgressHeader = () => {
   return (
-    <div className="mt-4 flex h-14 items-center justify-between gap-4 p-6">
+    <div className="mt-4 flex h-14 items-center justify-between gap-4 py-6">
       {/* Left side */}
       <div className="flex items-center gap-6">
         <p className="text-lg font-medium">Workout Time</p>
