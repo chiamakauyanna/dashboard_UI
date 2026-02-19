@@ -2,7 +2,7 @@ import weightChart from "../../assets/weight-data.png";
 
 const WeightData = () => {
   return (
-    <div className="mt-4 flex h-144.75 flex-col justify-between rounded-[17px] bg-white p-6 font-medium shadow">
+    <div className="mt-4 flex h-144.75 flex-col justify-between rounded-[17px] bg-white p-6 font-medium border border-secondary">
       <div>
         <p className="mb-3 text-[20px]">Weight Data</p>
 
