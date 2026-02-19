@@ -18,11 +18,13 @@ const Progress = () => {
           <HeartBeat />
           <WeightData />
         </div>
+
         {/* second grid */}
         <div className="">
           <WorkoutGoals />
           <GoalsList />
         </div>
+
         {/* last grid */}
         <div className="">
           <WorkoutActivity />
