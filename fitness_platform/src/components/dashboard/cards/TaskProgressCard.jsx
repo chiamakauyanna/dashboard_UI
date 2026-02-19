@@ -16,10 +16,14 @@ const TaskProgressCard = ({ img, alt, task, value, color, progress, text }) => {
           <CircularProgress
             progress={progress}
             color={color}
-            text={text}
+            trackColor="#f5f5f5"
             size={70}
             strokeWidth={7}
-          />
+          >
+            <div className="text-sm">
+              <p className="font-medium">{text}</p>
+            </div>
+          </CircularProgress>
         </div>
       </div>
     </div>

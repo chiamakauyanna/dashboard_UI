@@ -4,8 +4,7 @@ const CircularProgress = ({
   progress = 75,
   color = "#ffffff",
   trackColor = "rgba(255,255,255,0.3)",
-  text= '',
-  alttext= '',
+  children,
 }) => {
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
@@ -40,9 +39,8 @@ const CircularProgress = ({
       </svg>
 
       {/* Center content */}
-      <div className="absolute text-center text-sm">
-        <p className="font-semibold mb-3">{text}</p>
-        <p className="font-semibold text-white">{alttext}</p>
+      <div className="absolute">
+        {children}
       </div>
     </div>
   );
