@@ -1,9 +1,36 @@
-import React from 'react'
+import CaloriesStatistics from "../components/progress/CaloriesStatistics";
+import GoalsList from "../components/progress/GoalsList";
+import HealthScore from "../components/progress/HealthScore";
+import HeartBeat from "../components/progress/HeartBeat";
+import ProgressHeader from "../components/progress/ProgressHeader";
+import WeightData from "../components/progress/WeightData";
+import WorkoutActivity from "../components/progress/WorkoutActivity";
+import WorkoutGoals from "../components/progress/WorkoutGoals";
 
 const Progress = () => {
   return (
-    <div>Progress</div>
-  )
-}
+    <div>
+      <ProgressHeader/>
+      <div className="grid grid-cols-1 md:grid-cols-[400.25px_400.25px_1fr] gap-4">
+        {/* first grid */}
+        <div className="">
+          <HealthScore />
+          <HeartBeat />
+          <WeightData />
+        </div>
+        {/* second grid */}
+        <div className="">
+          <WorkoutGoals />
+          <GoalsList />
+        </div>
+        {/* last grid */}
+        <div className="">
+          <WorkoutActivity />
+          <CaloriesStatistics />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Progress
+export default Progress;
