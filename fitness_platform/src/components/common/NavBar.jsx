@@ -69,7 +69,7 @@ const NavBar = () => {
                   {item.label}
                 </Link>
               ) : (
-                <span className="flex-1">{item.label}</span>
+                <span className="flex-1 whitespace-nowrap">{item.label}</span>
               )}
 
               {item.rightIcon && (
