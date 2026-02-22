@@ -8,7 +8,7 @@ const DietCommentCard = ({ profilepic, name, rating, review }) => {
           <p>{rating}</p>
         </div>
       </div>
-      <p className="mt-5 text-sm font-medium text-[#9D9D9D]">{review}</p>
+      <p className="text-textLight mt-5 text-sm font-medium">{review}</p>
     </div>
   );
 };

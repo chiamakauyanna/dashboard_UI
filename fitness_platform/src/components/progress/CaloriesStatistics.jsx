@@ -3,7 +3,7 @@ import HealthStats from "./HealthStats";
 
 const CaloriesStatistics = () => {
   return (
-    <div className="border-secondary mt-4 h-[652.38px] rounded-[17px] border bg-white p-6">
+    <div className="border-secondary mt-4 h-full rounded-[17px] border bg-white p-6 lg:h-[652.38px]">
       <div>
         <p className="text-[20px] font-bold">Calories Statistic</p>
         <div className="py-4">

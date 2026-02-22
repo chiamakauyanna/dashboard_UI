@@ -7,11 +7,11 @@ const ProgressHeader = () => {
         <div className="flex items-center justify-between gap-4 rounded-lg bg-[#F5F5F5] px-4 py-3">
           <div className="flex items-center gap-1">
             <p className="text-[20px] font-bold">12</p>
-            <p className="text-[#9D9D9D]">Hours</p>
+            <p className="text-textLight">Hours</p>
           </div>
           <div className="flex items-center gap-1">
             <p className="text-[20px] font-bold">35</p>
-            <p className="text-[#9D9D9D]">Minutes</p>
+            <p className="text-textLight">Minutes</p>
           </div>
         </div>
 
@@ -21,7 +21,7 @@ const ProgressHeader = () => {
           <div className="rounded-lg bg-[#F5F5F5] px-4 py-3">
             <div className="flex items-center gap-1">
               <p className="text-[20px] font-bold">14</p>
-              <p className="text-[#9D9D9D]">Exercises</p>
+              <p className="text-textLight">Exercises</p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const ProgressHeader = () => {
 
       {/* Right side */}
       <div className="flex items-center gap-4">
-        <div className="h-9.25 w-112.5 rounded-lg border border-[#dee2e6] bg-[#f5f5f5] px-8 py-1 text-[#9D9D9D]">
+        <div className="text-textLight h-9.25 w-112.5 rounded-lg border border-[#dee2e6] bg-[#f5f5f5] px-8 py-1">
           <input
             type="text"
             name="search"

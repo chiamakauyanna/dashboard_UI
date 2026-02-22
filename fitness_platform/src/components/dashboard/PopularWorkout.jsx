@@ -5,12 +5,12 @@ import rapid from "../../assets/workout3.png";
 
 const PopularWorkout = () => {
   return (
-    <div className="mt-6 h-[375.28px] w-[939.08px] rounded-[17px] bg-white shadow">
+    <div className="mt-6 rounded-[17px] bg-white shadow lg:h-93.75 lg:w-234.75 p-2 lg:p-0">
       <div className="flex items-center justify-between px-8">
-        <p className="py-6 text-[20px] font-semibold">Popular Workouts</p>
-        <p className="text-accent font-bold">See more</p>
+        <p className="py-6 md:text-[20px] font-semibold">Popular Workouts</p>
+        <p className="text-accent font-bold text-sm md:text-base">See more</p>
       </div>
-      <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-0">
         <PopularWorkoutCard
           title="Piliformis Stretch"
           level="Beginner"

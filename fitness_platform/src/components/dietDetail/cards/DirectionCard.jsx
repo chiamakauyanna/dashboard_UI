@@ -15,8 +15,10 @@ const DirectionCard = ({ step, text, description, isLast }) => {
         </div>
 
         <div>
-          <p className="lg:text-lg font-semibold">{text}</p>
-          <p className="text-xs md:text-sm font-medium text-[#9D9D9D]">{description}</p>
+          <p className="font-semibold lg:text-lg">{text}</p>
+          <p className="text-textLight text-xs font-medium md:text-sm">
+            {description}
+          </p>
         </div>
       </div>
     </div>

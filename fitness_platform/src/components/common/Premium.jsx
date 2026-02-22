@@ -5,7 +5,7 @@ const Premium = () => {
   <img src={membershipImg} alt="membership Image" className="mt-2" />
   <div className="text-center text-sm">
     <p className="font-bold">Premium Membership</p>
-    <p className="font-medium text-[#9D9D9D]">
+    <p className="font-medium text-textLight">
       Monitor progress, set goals, and achieve results faster!
     </p>
   </div>

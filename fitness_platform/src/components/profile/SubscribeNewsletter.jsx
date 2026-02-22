@@ -8,7 +8,7 @@ const SubscribeNewsletter = () => {
       <p className="text-1xl mb-3 font-bold lg:text-2xl">
         Subscribe to Our NewsLetter
       </p>
-      <p className="mb-5 text-xs font-medium text-[#9D9D9D] md:text-sm">
+      <p className="text-textLight mb-5 text-xs font-medium md:text-sm">
         Subscribe to our newsletter for the latest updates, exclusive content,
         and special offers delivered directly to your inbox
       </p>
@@ -18,7 +18,7 @@ const SubscribeNewsletter = () => {
         name="email"
         id="email"
         placeholder="Enter Your Email"
-        className="mt-10 h-13.25 w-full rounded-lg bg-[#F5F5F5] px-4 text-xs text-[#9D9D9D] md:text-base"
+        className="text-textLight mt-10 h-13.25 w-full rounded-lg bg-[#F5F5F5] px-4 text-xs md:text-base"
       />
       <Button text="Subscribe" className="mt-6 w-full" />
     </div>

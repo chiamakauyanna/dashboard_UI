@@ -27,10 +27,10 @@ const DietHeading = () => {
         </div>
 
         <div className="mt-2">
-          <h2 className="text-[24px] font-bold mb-2">
+          <h2 className="mb-2 text-[24px] font-bold">
             Scrambled Eggs with Turkey Bacon and Sauteed Spinach
           </h2>
-          <p className="text-[14px] font-medium text-[#9D9D9D]">
+          <p className="text-textLight text-[14px] font-medium">
             This nutritious breakfast combines high-quality protein and healthy
             fats to fuel your day. The scrambled eggs provide essential amino
             acids, while the turkey bacon adds a lean source of protein. Sautéed

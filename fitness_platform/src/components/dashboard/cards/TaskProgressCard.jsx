@@ -3,12 +3,14 @@ import CircularProgress from "../../common/CircularProgress";
 const TaskProgressCard = ({ img, alt, task, value, color, progress, text }) => {
   return (
     <div>
-      <div className="mt-6 flex h-30 w-[457.53px] items-center justify-between rounded-[17px] px-6 shadow">
+      <div className="mt-6 flex h-30 items-center justify-between rounded-[17px] px-6 shadow lg:w-114.25">
         <div className="flex gap-4">
           <img src={img} alt={alt} />
           <div>
-            <p className="font-semibold">{task}</p>
-            <p className="text-sm font-medium text-[#9D9D9D]">{value}</p>
+            <p className="text-sm font-semibold md:text-base">{task}</p>
+            <p className="text-textLight text-xs font-medium md:text-sm">
+              {value}
+            </p>
           </div>
         </div>
 
@@ -20,7 +22,7 @@ const TaskProgressCard = ({ img, alt, task, value, color, progress, text }) => {
             size={70}
             strokeWidth={7}
           >
-            <div className="text-sm">
+            <div className="text-xs md:text-sm">
               <p className="font-medium">{text}</p>
             </div>
           </CircularProgress>

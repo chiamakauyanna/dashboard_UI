@@ -32,7 +32,7 @@ export default ProjectLayout;
 
 // const ProjectLayout = () => {
 //   return (
-//     <div className="flex h-screen">
+//     <div className="flex h-full lg:h-screen">
 //       <div>
 //         <SideBar />
 //       </div>
@@ -47,4 +47,3 @@ export default ProjectLayout;
 // };
 
 // export default ProjectLayout;
-

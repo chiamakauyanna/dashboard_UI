@@ -10,8 +10,7 @@ const Overview = () => {
     <div className="w-full">
       <StatOverview />
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_663.91px]
-">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_663.91px] gap-2">
           <div>
             <Charts />
             <TaskProgress />
@@ -19,8 +18,8 @@ const Overview = () => {
           </div>
 
           <div>
-            <Training/>
-            <Exercise/>
+            <Training />
+            <Exercise />
           </div>
         </div>
       </div>

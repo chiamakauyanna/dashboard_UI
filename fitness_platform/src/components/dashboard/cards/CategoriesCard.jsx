@@ -1,8 +1,8 @@
 const CategoriesCard = ({ img, alt, text }) => {
   return (
-    <div className="bg-white border border-secondary flex justify-center items-center gap-3 w-[188.61px] h-13.5 rounded-[10px]">
+    <div className="border-secondary flex h-13.5 w-36 items-center justify-center gap-3 rounded-[10px] border bg-white md:w-47">
       <img src={img} alt={alt} />
-      <p className="font-semibold text-sm">{text}</p>
+      <p className="text-sm font-semibold">{text}</p>
     </div>
   );
 };

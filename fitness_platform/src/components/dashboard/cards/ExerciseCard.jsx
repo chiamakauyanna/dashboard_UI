@@ -1,12 +1,12 @@
-import React from "react";
-
 const ExerciseCard = ({ img, alt, text, duration }) => {
   return (
-    <div className="border-secondary flex h-22.25 w-[613.91px] gap-3 rounded-[10px] border p-4">
+    <div className="border-secondary flex w-full gap-3 rounded-[10px] border p-4 lg:h-22.25 lg:w-153.25">
       <img src={img} alt={alt} />
       <div>
-        <p className="font-semibold">{text}</p>
-        <p className="text-sm font-medium text-[#9D9D9D]">{duration}</p>
+        <p className="text-sm font-semibold md:text-base">{text}</p>
+        <p className="text-textLight text-xs font-medium md:text-sm">
+          {duration}
+        </p>
       </div>
     </div>
   );

@@ -3,21 +3,22 @@ import sumo from "../../assets/sumo-squat.png";
 import lunge from "../../assets/front-lunge.png";
 import abduction from "../../assets/leg-abduction.png";
 import circles from "../../assets/arm-circles.png";
+import Button from "../common/Button";
 
 const Exercise = () => {
   return (
     <div className="mt-6 rounded-[17px] py-6 shadow">
       <div className="flex items-center justify-between px-8 pb-6">
         <div>
-          <p className="text-[20px] font-semibold">Best Exercises</p>
-          <p className="text-sm font-medium text-[#9D9D9D]">Exercises: 210</p>
+          <p className="font-semibold md:text-[20px]">Best Exercises</p>
+          <p className="text-textLight text-xs font-medium md:text-sm">
+            Exercises: 210
+          </p>
         </div>
 
-        <button className="bg-accent mt-7 flex items-center justify-center rounded-[5px] px-6 py-3 text-gray-100">
-          All Exercises
-        </button>
+        <Button text="All Exercises" />
       </div>
-      <div className="flex flex-col items-center justify-center gap-3">
+      <div className="flex flex-col items-center justify-center gap-3 px-2 md:px-0">
         <ExerciseCard
           img={sumo}
           alt="picture of a person doing a sumo squat"

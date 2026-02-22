@@ -6,7 +6,7 @@ const DietNutrientChartCard = ({ title, value, measurement }) => {
       </p>
       <div className="flex h-full w-full flex-col items-center justify-center rounded-2xl bg-white p-2 lg:h-[74.59px] lg:w-[101.08px] lg:p-0">
         <p className="font-bold lg:text-lg">{value}</p>
-        <p className="text-sm font-medium text-[#9D9D9D]">{measurement}</p>
+        <p className="text-textLight text-sm font-medium">{measurement}</p>
       </div>
     </div>
   );

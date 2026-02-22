@@ -3,7 +3,7 @@ import GoalsListCard from "./cards/GoalsListCard";
 const GoalsList = () => {
   return (
     <div className="mt-4">
-      <p className="w- text-[20px] font-semibold">Goals List</p>
+      <p className="lg:w- w-full text-[20px] font-semibold">Goals List</p>
 
       <div>
         <GoalsListCard
