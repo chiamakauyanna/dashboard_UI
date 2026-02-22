@@ -4,10 +4,18 @@ import DietPrepCard from "./cards/DietPrepCard";
 
 const DietHeading = () => {
   return (
-    <div className="mt-6 h-[653.16px] w-[1076.66px] rounded-[17px] bg-white p-6 shadow">
-      <div className="flex items-center justify-center gap-4">
-        <img src={scrambledEggs1} alt="picture of scrambled eggs" />
-        <img src={scrambledEggs2} alt="picture of scrambled eggs" />
+    <div className="mt-6 w-full rounded-[17px] bg-white p-6 shadow lg:h-[653.16px] lg:w-[1076.66px]">
+      <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
+        <img
+          src={scrambledEggs1}
+          alt="picture of scrambled eggs"
+          className="lg-w-full md:w-1/2"
+        />
+        <img
+          src={scrambledEggs2}
+          alt="picture of scrambled eggs"
+          className="md:w-1/2 lg:w-full"
+        />
       </div>
 
       <div>
@@ -30,7 +38,7 @@ const DietHeading = () => {
             satisfying and health-conscious.
           </p>
         </div>
-        <div className="mt-6 grid grid-cols-3 justify-items-start gap-6">
+        <div className="mt-6 grid grid-cols-1 justify-items-start gap-6 md:grid-cols-2 lg:grid-cols-3">
           <DietPrepCard text="Eat Time" value="8.00 AM" />
           <DietPrepCard text="Prep Time" value="5 minutes" />
           <DietPrepCard text="Cook Time" value="10 minutes" />
