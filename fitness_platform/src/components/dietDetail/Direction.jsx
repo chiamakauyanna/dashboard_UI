@@ -3,7 +3,7 @@ import IngredientsCard from "./cards/IngredientsCard.JSX";
 
 const Direction = () => {
   return (
-    <div className="mt-6 grid h-[586.97px] w-[1076.66px] grid-cols-2 place-items-center rounded-[17px] bg-white p-6 shadow">
+    <div className="mt-6 grid grid-cols-1 gap-6 rounded-[17px] bg-white p-6 shadow lg:h-[586.97px] lg:w-[1076.66px] lg:place-items-center lg:gap-0">
       {/* Directions */}
       <div>
         <h2 className="mb-4 text-[20px] font-bold">Directions</h2>
