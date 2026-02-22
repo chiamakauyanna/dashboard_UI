@@ -3,7 +3,7 @@ import GoalsListCard from "./cards/GoalsListCard";
 const GoalsList = () => {
   return (
     <div className="mt-4">
-      <p className="lg:w- w-full text-[20px] font-semibold">Goals List</p>
+      <p className="font-semibold md:text-[20px]">Goals List</p>
 
       <div>
         <GoalsListCard
@@ -12,7 +12,7 @@ const GoalsList = () => {
           timeline="25 km (5 runs of 5 km each)"
           progress="60%"
           calc="15/25 km"
-          width="60"
+          width="w-60"
         />
         <GoalsListCard
           goal="Weekly Yoga Practice"
@@ -20,7 +20,7 @@ const GoalsList = () => {
           timeline="4 sessions per week"
           progress="75%"
           calc="3.4 sessions"
-          width="72"
+          width="w-72"
         />
         <GoalsListCard
           goal="Daily Step Count"
@@ -28,7 +28,7 @@ const GoalsList = () => {
           timeline="70,000 steps/week"
           progress="85%"
           calc="59,500/70,000 steps"
-          width="80"
+          width="w-80"
         />
       </div>
     </div>
