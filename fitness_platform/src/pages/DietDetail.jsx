@@ -8,7 +8,7 @@ import DietNutrientChart from "../components/dietDetail/DietNutrientChart";
 const DietDetail = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_526.33px]">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1fr_526.33px]">
         <div className="">
           <DietHeading />
           <Direction />

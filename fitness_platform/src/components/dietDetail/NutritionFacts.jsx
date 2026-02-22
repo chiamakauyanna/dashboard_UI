@@ -2,7 +2,7 @@ import NutritionContentCard from "./cards/NutritionContentCard";
 
 const NutritionFacts = () => {
   return (
-    <div className="mt-6 h-139.25 w-[526.33px] rounded-[17px] bg-white p-6 shadow">
+    <div className="mt-6 w-full rounded-[17px] bg-white p-6 shadow lg:h-139.25 lg:w-[526.33px]">
       <h2 className="pb-3 text-[20px] font-bold">Nutrition Facts</h2>
 
       <NutritionContentCard nutrient="Calories" value="350" />

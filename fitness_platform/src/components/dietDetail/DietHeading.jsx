@@ -19,15 +19,15 @@ const DietHeading = () => {
       </div>
 
       <div>
-        <div className="flex items-center justify-between">
-          <div className="bg-accent/20 mt-6 rounded-md px-3 py-2">
+        <div className="mt-6 flex items-center justify-between">
+          <div className="bg-accent/20 rounded-md px-3 py-2">
             <p className="text-accent text-xs font-medium">Breakfast</p>
           </div>
           <p className="text-sm font-medium"> 4.8/5 (+220 reviews)</p>
         </div>
 
         <div className="mt-2">
-          <h2 className="text-[24px] font-bold">
+          <h2 className="text-[24px] font-bold mb-2">
             Scrambled Eggs with Turkey Bacon and Sauteed Spinach
           </h2>
           <p className="text-[14px] font-medium text-[#9D9D9D]">
