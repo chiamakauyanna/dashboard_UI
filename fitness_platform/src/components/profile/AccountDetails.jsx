@@ -2,21 +2,21 @@ import Button from "../common/Button";
 
 const AccountDetails = () => {
   return (
-    <div className="mt-4 h-82.75 rounded-[17px] bg-white p-4 shadow">
-      <p className="mb-4 text-[20px] font-bold">Account</p>
+    <div className="mt-4 rounded-[17px] bg-white p-4 shadow lg:h-82.75">
+      <p className="mb-4 font-bold md:text-[20px]">Account</p>
 
-      <div className="px-2 mb-8">
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 font-semibold">
+      <div className="mb-8 px-2">
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
           <p className="font-semibold">Account</p>
         </div>
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 font-semibold">
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
           <p className="font-semibold">My Workouts</p>
         </div>
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 font-semibold">
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
           <p className="font-semibold">Workout reminders</p>
         </div>
       </div>
-      <Button text='Log out'/>
+      <Button text="Log out" />
     </div>
   );
 };

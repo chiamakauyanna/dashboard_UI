@@ -2,8 +2,8 @@ import WeightTrackingCard from "./cards/WeightTrackingCard";
 
 const WeightTracking = () => {
   return (
-    <div className="mt-4 h-[702.81px] rounded-[17px] bg-white p-4 shadow">
-      <p className="mb-4 text-[20px] font-bold">Weight tracking</p>
+    <div className="mt-4 rounded-[17px] bg-white p-4 shadow lg:h-[702.81px]">
+      <p className="mb-4 md:text-[20px] font-bold">Weight tracking</p>
 
       <div className="grid place-items-center">
         <WeightTrackingCard

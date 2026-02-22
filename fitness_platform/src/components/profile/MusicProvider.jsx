@@ -1,19 +1,19 @@
 const MusicProvider = () => {
   return (
     <div className="mt-4 h-65.5 rounded-[17px] bg-white p-4 shadow">
-      <p className="text-[20px] font-bold">Music Provider</p>
-      <p className="text-sm font-medium text-[#9D9D9D]">
+      <p className="font-bold md:text-[20px]">Music Provider</p>
+      <p className="text-xs font-medium text-[#9D9D9D] md:text-sm">
         Listen to your favorite music while exercising. The best music streaming
         services include access to millions of songs.
       </p>
 
       <div className="mb-8 space-y-2 px-2">
         <div className="border-secondary border-b py-5">
-          <p className="font-semibold">Spotify</p>
+          <p className="text-sm font-semibold md:text-base">Spotify</p>
         </div>
 
         <div className="border-secondary border-b py-5">
-          <p className="font-semibold">Apple Music</p>
+          <p className="text-sm font-semibold md:text-base">Apple Music</p>
         </div>
       </div>
     </div>
