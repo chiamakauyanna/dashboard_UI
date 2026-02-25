@@ -1,5 +1,7 @@
 # Performance Tracking Dashboard UI
 
+![Dashboard Preview](./assets/screenshots/overview.png)
+
 A clean, responsive dashboard UI built with React and Tailwind CSS.  
 This project is a pixel-accurate implementation of selected screens from a fitness-based Figma UI kit, focused on layout structure, component reuse, and visual consistency.
 
@@ -12,9 +14,23 @@ This project demonstrates the implementation of a modern multi-screen dashboard 
 - Sign In
 - Sign Up
 - Overview Dashboard
-- Progress / Analytics
+- Progress
 - Diet Details
 - Profile Page
+
+## UI Screenshots
+
+- Overview Dashboard
+![Dashboard Preview](./assets/screenshots/overview.png)
+
+- Progress
+![Progress Preview](./assets/screenshots/progress.png)
+
+- Diet Details
+![Diet-Detail Preview](./assets/screenshots/diet-detail.png)
+
+- Profile Page
+![Profile Preview](./assets/screenshots/profile.png)
 
 ## 🛠 Tech Stack
 
@@ -74,4 +90,6 @@ This ensures scalability and easy customization.
 ## Author
 
 Frontend Developer specializing in clean, responsive UI implementation.
+
+
 

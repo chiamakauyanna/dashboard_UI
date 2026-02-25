@@ -3,7 +3,7 @@ import { CiDark, CiSearch } from "react-icons/ci";
 import { PiBell } from "react-icons/pi";
 import { IoMdSettings } from "react-icons/io";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import profilePhoto from "../../assets/19.png";
+import profilePhoto from "../../assets/images/19.png";
 
 const Header = ({ onMenuToggle, isSidebarOpen }) => {
   const [searchOpen, setSearchOpen] = useState(false);

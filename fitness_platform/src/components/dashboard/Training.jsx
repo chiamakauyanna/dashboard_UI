@@ -1,10 +1,10 @@
-import adPic from "../../assets/ad-picture.png";
-import boxing from "../../assets/boxing.png";
-import cardio from "../../assets/cardio.png";
-import gym from "../../assets/weight.png";
-import yoga from "../../assets/yoga.png";
-import stretch from "../../assets/stretching.png";
-import arm from "../../assets/arm.png";
+import adPic from "../../assets/images/ad-picture.png";
+import boxing from "../../assets/images/boxing.png";
+import cardio from "../../assets/images/cardio.png";
+import gym from "../../assets/images/weight.png";
+import yoga from "../../assets/images/yoga.png";
+import stretch from "../../assets/images/stretching.png";
+import arm from "../../assets/images/arm.png";
 import CategoriesCard from "./cards/CategoriesCard";
 import Button from "../common/Button";
 
@@ -24,7 +24,7 @@ const Training = () => {
         <img
           src={adPic}
           alt="stock stretching image"
-          className="w-32 lg:w-64 -mr-3"
+          className="-mr-3 w-32 lg:w-64"
         />
       </div>
 

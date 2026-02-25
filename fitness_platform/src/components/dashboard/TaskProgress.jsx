@@ -1,8 +1,8 @@
 import TaskProgressCard from "./cards/TaskProgressCard";
-import running from "../../assets/running.png";
-import sleeping from "../../assets/sleeping.png";
-import lifting from "../../assets/weightlifting.png";
-import fire from "../../assets/fire.png";
+import running from "../../assets/images/running.png";
+import sleeping from "../../assets/images/sleeping.png";
+import lifting from "../../assets/images/weightlifting.png";
+import fire from "../../assets/images/fire.png";
 
 const TaskProgress = () => {
   return (

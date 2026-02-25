@@ -1,5 +1,5 @@
-import scrambledEggs1 from "../../assets/diet1.png";
-import scrambledEggs2 from "../../assets/diet2.png";
+import scrambledEggs1 from "../../assets/images/diet1.png";
+import scrambledEggs2 from "../../assets/images/diet2.png";
 import DietPrepCard from "./cards/DietPrepCard";
 
 const DietHeading = () => {

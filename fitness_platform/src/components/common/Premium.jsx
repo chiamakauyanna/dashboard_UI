@@ -1,4 +1,4 @@
-import membershipImg from "../../assets/Group 4.png";
+import membershipImg from "../../assets/images/Group 4.png";
 import Button from "./Button";
 const Premium = () => {
   return (

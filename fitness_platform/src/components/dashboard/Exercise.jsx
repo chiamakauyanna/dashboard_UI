@@ -1,8 +1,8 @@
 import ExerciseCard from "./cards/ExerciseCard";
-import sumo from "../../assets/sumo-squat.png";
-import lunge from "../../assets/front-lunge.png";
-import abduction from "../../assets/leg-abduction.png";
-import circles from "../../assets/arm-circles.png";
+import sumo from "../../assets/images/sumo-squat.png";
+import lunge from "../../assets/images/front-lunge.png";
+import abduction from "../../assets/images/leg-abduction.png";
+import circles from "../../assets/images/arm-circles.png";
 import Button from "../common/Button";
 
 const Exercise = () => {

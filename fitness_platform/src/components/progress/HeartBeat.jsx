@@ -1,4 +1,4 @@
-import heartbeat from "../../assets/heart-rate.png";
+import heartbeat from "../../assets/images/heart-rate.png";
 const HeartBeat = () => {
   return (
     <div className="bg-accent4/30 mt-4 h-45.5 rounded-[17px] p-6 shadow">

@@ -1,13 +1,13 @@
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/logo.png";
 import AuthOptions from "../../components/authentication/AuthOptions";
 import Form from "../../components/authentication/Form";
-import authImg from "../../assets/3d-gym-equipment.png";
+import authImg from "../../assets/images/3d-gym-equipment.png";
 import Button from "../../components/common/Button";
 import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
-    <div className="flex md:h-screen w-screen items-center justify-center lg:gap-12">
+    <div className="flex w-screen items-center justify-center md:h-screen lg:gap-12">
       {/* left section with form and sign up options */}
       <div className="px-4 md:w-141">
         <div className="grid place-items-center py-8">
@@ -50,7 +50,7 @@ const Signup = () => {
         {/* Authentication options */}
         <AuthOptions type="Up" />
 
-        <div className="py-6 grid place-items-center text-sm font-medium">
+        <div className="grid place-items-center py-6 text-sm font-medium">
           <p>
             {" "}
             Already have an account?{" "}

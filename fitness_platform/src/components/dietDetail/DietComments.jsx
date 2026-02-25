@@ -1,9 +1,9 @@
 import DietCommentCard from "./cards/DietCommentCard";
-import pic from "../../assets/samantha-lee.png";
+import pic from "../../assets/images/samantha-lee.png";
 
 const DietComments = () => {
   return (
-    <div className="mt-6 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-0">
+    <div className="mt-6 grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-4 lg:gap-0">
       <DietCommentCard
         profilepic={pic}
         name="Samantha Lee"

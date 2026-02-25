@@ -1,5 +1,5 @@
 import Button from "../common/Button";
-import emailsub from "../../assets/email-subscription.png";
+import emailsub from "../../assets/images/email-subscription.png";
 
 const SubscribeNewsletter = () => {
   return (

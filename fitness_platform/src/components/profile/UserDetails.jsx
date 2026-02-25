@@ -1,8 +1,8 @@
-import profileImg from "../../assets/profile-img.png";
+import profileImg from "../../assets/images/profile-img.png";
 import Button from "../common/Button";
-import clock from "../../assets/clock.png";
-import fire from "../../assets/fire.png";
-import power from "../../assets/power.png";
+import clock from "../../assets/images/clock.png";
+import fire from "../../assets/images/fire.png";
+import power from "../../assets/images/power.png";
 import DataCard from "./cards/DataCard";
 
 const UserDetails = () => {
@@ -21,17 +21,17 @@ const UserDetails = () => {
         </div>
 
         <div className="mt-6 flex items-center justify-center gap-6">
-          <div className="border-secondary flex h-11.5 w-[148.11px] items-center justify-center gap-2 rounded-[10px] border">
+          <div className="border-secondary flex h-11.5 w-37 items-center justify-center gap-2 rounded-[10px] border shrink-0">
             <img src={clock} alt="picture of a clock" />
             <p className="text-xs font-medium md:text-sm">55 kg</p>
           </div>
 
-          <div className="border-secondary flex h-11.5 w-[148.11px] items-center justify-center gap-2 rounded-[10px] border">
+          <div className="border-secondary flex h-11.5 w-37 items-center justify-center gap-2 rounded-[10px] border shrink-0">
             <img src={fire} alt="picture of a fire" />
             <p className="text-xs font-medium md:text-sm">167 cm</p>
           </div>
 
-          <div className="border-secondary flex h-11.5 w-[148.11px] items-center justify-center gap-2 rounded-[10px] border">
+          <div className="border-secondary flex h-11.5 w-37 items-center justify-center gap-2 rounded-[10px] border shrink-0">
             <img src={power} alt="picture signifying power" />
             <p className="text-xs font-medium md:text-sm">26 years</p>
           </div>

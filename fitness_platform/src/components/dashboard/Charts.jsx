@@ -1,5 +1,5 @@
-import columnChart from "../../assets/column-chart.png";
-import circularChart from "../../assets/pie-chart.png";
+import columnChart from "../../assets/images/column-chart.png";
+import circularChart from "../../assets/images/pie-chart.png";
 
 const Charts = () => {
   return (
@@ -7,7 +7,7 @@ const Charts = () => {
       <div className="h-93 w-full rounded-[17px] bg-white shadow lg:w-114.25">
         {/* Activity */}
         <div className="mx-6 my-3 flex items-center justify-between text-sm md:text-base">
-          <p className="font-medium ">Activity</p>
+          <p className="font-medium">Activity</p>
           <div className="rounded-[10px] bg-[#F5F5F5] px-6 py-2">
             <p>Weekly</p>
           </div>

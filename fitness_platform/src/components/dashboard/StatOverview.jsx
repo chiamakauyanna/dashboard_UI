@@ -1,7 +1,7 @@
 import CircularProgress from "../common/CircularProgress";
 import StatCard from "./cards/StatCard";
-import Calories from "../../assets/calories-overview.png";
-import HeartRate from "../../assets/heart-rate-overview.png";
+import Calories from "../../assets/images/calories-overview.png";
+import HeartRate from "../../assets/images/heart-rate-overview.png";
 
 const StatOverview = () => {
   return (

@@ -1,4 +1,4 @@
-import award from "../../assets/trophy.png";
+import award from "../../assets/images/trophy.png";
 
 const FitnessStar = () => {
   return (

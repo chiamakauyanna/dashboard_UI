@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/logo.png";
 import NavBar from "../common/NavBar";
 import Premium from "../common/Premium";
 
