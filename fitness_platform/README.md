@@ -2,94 +2,85 @@
 
 ![Dashboard Preview](./assets/screenshots/overview.png)
 
-A clean, responsive dashboard UI built with React and Tailwind CSS.  
-This project is a pixel-accurate implementation of selected screens from a fitness-based Figma UI kit, focused on layout structure, component reuse, and visual consistency.
+A responsive, multi-screen dashboard UI built with **React** and **Tailwind CSS** — a pixel-accurate implementation of selected screens from a Figma community UI kit, adapted for real-world responsiveness across desktop, tablet, and mobile viewports.
 
-## ✨ Overview
+---
 
-This project demonstrates the implementation of a modern multi-screen dashboard interface including authentication flows and core product pages. It is designed as a reusable UI foundation for internal tools, admin panels, or performance tracking applications.
+## Screens
 
-## 📄 Included Screens
+| Screen       | Description                                                      |
+| ------------ | ---------------------------------------------------------------- |
+| Sign In      | Authentication entry screen                                      |
+| Sign Up      | New user registration screen                                     |
+| Overview     | Main dashboard with activity summary                             |
+| Progress     | Workout goals, health score, and calorie statistics              |
+| Diet Details | Meal breakdown with ingredients, directions, and nutrition facts |
+| Profile      | User profile and personal stats                                  |
 
-- Sign In
-- Sign Up
-- Overview Dashboard
-- Progress
-- Diet Details
-- Profile Page
+### Screenshots
 
-## UI Screenshots
+**Overview**
+![Overview](./assets/screenshots/overview.png)
 
-- Overview Dashboard
-![Dashboard Preview](./assets/screenshots/overview.png)
+**Progress**
+![Progress](./assets/screenshots/progress.png)
 
-- Progress
-![Progress Preview](./assets/screenshots/progress.png)
+**Diet Details**
+![Diet Detail](./assets/screenshots/diet-detail.png)
 
-- Diet Details
-![Diet-Detail Preview](./assets/screenshots/diet-detail.png)
+**Profile**
+![Profile](./assets/screenshots/profile.png)
 
-- Profile Page
-![Profile Preview](./assets/screenshots/profile.png)
+---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- React
-- Tailwind CSS
-- Responsive Layout (Desktop + Tablet)
+- **React** — component-based UI architecture
+- **Tailwind CSS** — utility-first styling
+- **React Router** — client-side routing
+- **React Icons** — icon library
 
-## 🎯 Purpose
+---
 
-This project focuses strictly on UI implementation.  
-It does not include backend logic or authentication functionality. All screens are built for layout accuracy, responsiveness, and reusable component structure.
+## Responsive Behavior
 
-## 📦 Project Structure
+The original Figma design targets extra-large (XL) desktop screens. This implementation adapts the layout across three breakpoints:
 
-The project is structured with reusable components for:
+- **Mobile** (`< 768px`) — stacked layout, slide-in sidebar via hamburger menu
+- **Tablet** (`768px – 1024px`) — two-column grid, collapsible sidebar
+- **Desktop** (`> 1024px`) — full sidebar visible, multi-column layout matching the original design
 
-- Layout (Sidebar, Header)
-- Cards
-- Buttons
-- Form inputs
+---
 
-This ensures scalability and easy customization.
+## Getting Started
 
-## 🚀 Getting Started
+```bash
+# Clone the repository
+git clone https://github.com/chiamakauyanna/dashboard-UI
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chiamakauyanna/dashboard-UI
-````
+# Install dependencies
+npm install
 
-2. Install dependencies:
+# Start the development server
+npm run dev
+```
 
-   ```bash
-   npm install
-   ```
+---
 
-3. Run the development server:
+## Design Source
 
-   ```bash
-   npm run dev
-   ```
+Based on the **[45 Premium Online Gym UI Kit (Community)](https://www.figma.com/design/KXmVvvB676MHSdyXOdikGz/45--Premium-Online-Gym-UI-Kit--Community-?node-id=1-189)** — a Figma community resource. This project is a frontend implementation exercise and is not affiliated with the original design authors.
 
-## 🔧 Customization
+---
 
-* Modify Tailwind utility classes to adjust styling.
-* Update theme colors in the Tailwind configuration file.
-* Replace placeholder content with real data as needed.
+## Notes
 
-## 📌 Notes
-
-* This is a UI-focused project.
-* Design source: Figma Community (UI implementation project).
-* Built to demonstrate frontend execution and interface consistency.
+- This is a UI-only project with no backend or live authentication.
+- All data is static placeholder content.
+- Built to demonstrate frontend execution, responsive layout adaptation, and reusable component architecture.
 
 ---
 
 ## Author
 
-Frontend Developer specializing in clean, responsive UI implementation.
-
-
-
+Frontend Developer — focused on clean, responsive UI implementation.
