@@ -2,8 +2,8 @@ import NutritionContentCard from "./cards/NutritionContentCard";
 
 const NutritionFacts = () => {
   return (
-    <div className="mt-6 w-full rounded-[17px] bg-white p-6 shadow lg:h-139.25 lg:w-[526.33px]">
-      <h2 className="pb-3 text-[20px] font-bold">Nutrition Facts</h2>
+    <div className="mt-6 w-full rounded-[17px] bg-white p-4 xl:px-6 shadow xl:h-139">
+      <h2 className="pb-3 font-bold xl:text-[20px]">Nutrition Facts</h2>
 
       <NutritionContentCard nutrient="Calories" value="350" />
       <NutritionContentCard nutrient="Total Carbohydrates" value="10 gr" />

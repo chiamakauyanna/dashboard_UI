@@ -11,8 +11,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex w-61.25 flex-col items-center">
-      <ul className="mt-6 w-51.25 font-medium">
+    <nav className="flex max-w-61 flex-col items-center">
+      <ul className="mt-6 max-w-51 text-sm font-medium xl:text-base">
         {[
           { label: "Overview", route: "/" },
           {
@@ -60,7 +60,7 @@ const NavBar = () => {
           <div key={idx}>
             {/* Parent nav item */}
             <li
-              className={`flex h-12.25 items-center justify-between rounded-lg pr-6 pl-13 ${
+              className={`flex h-11 items-center justify-between rounded-lg pr-4 pl-8 xl:h-12 xl:pr-6 xl:pl-13 ${
                 item.route === path ? "bg-accent text-primary" : ""
               }`}
             >
@@ -84,11 +84,11 @@ const NavBar = () => {
 
             {/* Dropdown children with tree connector */}
             {item.children && openMenu === item.label && (
-              <div className="relative mx-5 mt-4 border-l border-dashed border-[#2125290]">
+              <div className="relative ml-8 border-l border-dashed border-[#2125290]">
                 {item.children.map((menu, childIdx) => (
                   <li
                     key={childIdx}
-                    className="relative flex h-9 items-center before:left-0 before:w-4 before:border-t before:border-dashed before:border-[#2125290]"
+                    className="relative flex h-9 items-center before:left-0 before:w-2 before:border-t before:border-dashed before:border-[#2125290]"
                   >
                     <span className="pl-3">
                       {menu.route ? (

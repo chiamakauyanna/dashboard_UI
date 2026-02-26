@@ -5,10 +5,10 @@ import HeartRate from "../../assets/images/heart-rate-overview.png";
 
 const StatOverview = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4">
       <StatCard title="Steps" color="bg-accent">
-        <p className="text-xl font-semibold md:text-2xl lg:text-3xl">
-          3.500 <span className="lg:text-xl">Steps</span>{" "}
+        <p className="text-xl font-semibold md:text-2xl xl:text-3xl">
+          3.500 <span className="xl:text-xl">Steps</span>{" "}
         </p>
         <div className="my-2 h-3 w-full rounded-md bg-white/50">
           <div className="h-full w-24 rounded-l-md bg-white"></div>
@@ -35,7 +35,7 @@ const StatOverview = () => {
           <img
             src={HeartRate}
             alt="Heartrate measurement"
-            className="lg:-mt-5"
+            className="-mt-4 xl:-mt-5"
           />
         </div>
       </StatCard>

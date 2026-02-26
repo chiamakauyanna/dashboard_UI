@@ -3,7 +3,7 @@ import pic from "../../assets/images/samantha-lee.png";
 
 const DietComments = () => {
   return (
-    <div className="mt-6 grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+    <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
       <DietCommentCard
         profilepic={pic}
         name="Samantha Lee"

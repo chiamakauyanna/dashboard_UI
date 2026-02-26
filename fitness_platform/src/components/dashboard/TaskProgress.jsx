@@ -6,7 +6,7 @@ import fire from "../../assets/images/fire.png";
 
 const TaskProgress = () => {
   return (
-    <div className="grid w-full grid-cols-1 md:grid-cols-2 md:gap-3 lg:w-234.75 lg:gap-0">
+    <div className="grid w-full grid-cols-1 gap-2 md:grid-cols-2">
       <TaskProgressCard
         img={running}
         alt="image of a running girl"

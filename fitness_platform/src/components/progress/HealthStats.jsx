@@ -2,7 +2,7 @@ import HealthStatCard from "./cards/HealthStatCard";
 
 const HealthStats = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+    <div className="grid grid-cols-1 xl:gap-4 gap-2 md:grid-cols-2">
       <HealthStatCard
         color="bg-accent5/30"
         nutrient="Calories"

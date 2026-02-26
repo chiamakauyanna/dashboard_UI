@@ -2,18 +2,20 @@ import Button from "../common/Button";
 
 const AccountDetails = () => {
   return (
-    <div className="mt-4 rounded-[17px] bg-white p-4 shadow lg:h-82.75">
-      <p className="mb-4 font-bold md:text-[20px]">Account</p>
+    <div className="mt-4 rounded-[17px] bg-white p-4 shadow xl:h-82">
+      <p className="mb-4 font-bold xl:text-[20px]">Account</p>
 
-      <div className="mb-8 px-2">
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
-          <p className="font-semibold">Account</p>
+      <div className="mb-4 px-2 xl:mb-8">
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-3 text-sm xl:py-4 xl:text-base">
+          <p className="text-xs font-semibold xl:text-base">My Account</p>
         </div>
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
-          <p className="font-semibold">My Workouts</p>
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-3 text-sm xl:py-4 xl:text-base">
+          <p className="text-xs font-semibold xl:text-base">My Workouts</p>
         </div>
-        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-4 text-sm md:text-base">
-          <p className="font-semibold">Workout reminders</p>
+        <div className="flex items-center justify-between border-b border-[#D9D9D9] py-3 text-sm xl:py-4 xl:text-base">
+          <p className="text-xs font-semibold xl:text-base">
+            Workout reminders
+          </p>
         </div>
       </div>
       <Button text="Log out" />

@@ -1,3 +1,4 @@
+import Categories from "../components/dashboard/Categories";
 import Charts from "../components/dashboard/Charts";
 import Exercise from "../components/dashboard/Exercise";
 import PopularWorkout from "../components/dashboard/PopularWorkout";
@@ -7,18 +8,19 @@ import Training from "../components/dashboard/Training";
 
 const Overview = () => {
   return (
-    <div className="w-full">
+    <div>
       <StatOverview />
       <div>
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_663.91px] gap-2">
-          <div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 w-full">
+          <div className="lg:col-span-2">
             <Charts />
             <TaskProgress />
             <PopularWorkout />
           </div>
 
-          <div>
+          <div className="">
             <Training />
+            <Categories/>
             <Exercise />
           </div>
         </div>

@@ -3,10 +3,10 @@ import IngredientsCard from "./cards/IngredientsCard.JSX";
 
 const Direction = () => {
   return (
-    <div className="mt-6 grid grid-cols-1 gap-6 rounded-[17px] bg-white p-6 shadow lg:h-[586.97px] lg:w-[1076.66px] lg:grid-cols-2 lg:place-items-center lg:gap-0">
+    <div className="mt-6 grid grid-cols-1 gap-6 rounded-[17px] bg-white p-4 xl:px-6 shadow xl:h-146 lg:grid-cols-2 lg:place-items-center">
       {/* Directions */}
       <div>
-        <h2 className="mb-4 font-bold md:text-[20px]">Directions</h2>
+        <h2 className="mb-4 font-bold xl:text-[20px]">Directions</h2>
         <DirectionCard
           step="1"
           text="Prep the Ingredients"
@@ -40,10 +40,10 @@ Serve immediately."
           isLast
         />
       </div>
-      <div className="lg:w-[485.33px]">
+      <div className="xl:max-w-121.25">
         {/* Tools and Equipments */}
         <div>
-          <h2 className="mb-4 font-bold md:text-[20px]">
+          <h2 className="mb-4 font-bold xl:text-[20px]">
             Tools and Equipments
           </h2>
           <IngredientsCard steps="Non - stick skillet" />
@@ -55,7 +55,7 @@ Serve immediately."
 
         {/* Notes */}
         <div className="py-4">
-          <h2 className="mb-4 font-bold md:text-[20px]">Notes</h2>
+          <h2 className="mb-4 font-bold xl:text-[20px]">Notes</h2>
           <IngredientsCard
             steps="For a lower-calorie option, substitute olive oil with a cooking spray
 and reduce the amount of turkey bacon."

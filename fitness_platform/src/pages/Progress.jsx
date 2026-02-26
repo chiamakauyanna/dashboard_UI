@@ -9,9 +9,9 @@ import WorkoutGoals from "../components/progress/WorkoutGoals";
 
 const Progress = () => {
   return (
-    <div className="bg-white lg:px-6">
+    <div className="bg-white shadow px-4 lg:px-2 xl:px-4">
       <ProgressHeader />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-[400.25px_400.25px_1fr]">
+      <div className="grid grid-cols-1 gap-4 lg:gap-2 xl:gap-4 md:grid-cols-2 lg:grid-cols-4">
         {/* first grid */}
         <div className="">
           <HealthScore />
@@ -26,7 +26,7 @@ const Progress = () => {
         </div>
 
         {/* last grid */}
-        <div className="md:col-span-2 lg:col-span-1">
+        <div className="md:col-span-2 lg:col-span-2">
           <WorkoutActivity />
           <CaloriesStatistics />
         </div>

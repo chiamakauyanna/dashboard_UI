@@ -15,7 +15,7 @@ const Signin = () => {
         </div>
         <div className="mb-4 font-medium">
           <h2 className="text-xl md:text-2xl">Welcome Back 👋</h2>
-          <p className="text-textLight text-xs md:text-sm">
+          <p className="text-textLight text-xs">
             Today is a new day. It's your day. You shape it. Sign in to start
             managing your projects.
           </p>
@@ -36,9 +36,7 @@ const Signin = () => {
             placeholder="At least 8 characters"
           />
           <div className="grid w-full place-items-end py-2">
-            <p className="text-accent text-xs font-medium md:text-sm">
-              Forgot Password?
-            </p>
+            <p className="text-accent text-xs font-medium">Forgot Password?</p>
           </div>
           <Button text="Sign In" className="w-full" />
         </form>

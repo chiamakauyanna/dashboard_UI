@@ -15,7 +15,7 @@ const Signup = () => {
         </div>
         <div className="mb-4 font-medium">
           <h2 className="text-xl md:text-2xl">Welcome Back 👋</h2>
-          <p className="text-textLight text-xs md:text-sm">
+          <p className="text-textLight text-xs">
             Today is a new day. It's your day. You shape it. Sign Up to start
             managing your projects.
           </p>

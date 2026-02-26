@@ -3,7 +3,7 @@ const IngredientsCard = ({ steps }) => {
     <div className="mb-2 flex items-center gap-3">
       <div className="bg-accent/20 h-7.5 w-7.5 shrink-0 rounded-[10px]"></div>
       <div>
-        <p className="text-xs font-medium md:text-sm">{steps}</p>
+        <p className="text-xs font-medium">{steps}</p>
       </div>
     </div>
   );

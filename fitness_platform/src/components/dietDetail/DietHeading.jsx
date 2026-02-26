@@ -4,17 +4,17 @@ import DietPrepCard from "./cards/DietPrepCard";
 
 const DietHeading = () => {
   return (
-    <div className="mt-6 w-full rounded-[17px] bg-white p-6 shadow lg:h-[653.16px] lg:w-[1076.66px]">
+    <div className="mt-4 xl:mt-6 w-full rounded-[17px] bg-white p-4 xl:px-6 shadow xl:h-163.25">
       <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
         <img
           src={scrambledEggs1}
           alt="picture of scrambled eggs"
-          className="lg-w-full md:w-1/2"
+          className="w-1/2"
         />
         <img
           src={scrambledEggs2}
           alt="picture of scrambled eggs"
-          className="md:w-1/2 lg:w-full"
+          className="w-1/2"
         />
       </div>
 
@@ -23,14 +23,14 @@ const DietHeading = () => {
           <div className="bg-accent/20 rounded-md px-3 py-2">
             <p className="text-accent text-xs font-medium">Breakfast</p>
           </div>
-          <p className="text-sm font-medium"> 4.8/5 (+220 reviews)</p>
+          <p className="text-xs xl:text-sm font-medium"> 4.8/5 (+220 reviews)</p>
         </div>
 
         <div className="mt-2">
-          <h2 className="mb-2 text-[24px] font-bold">
+          <h2 className="mb-2 text-xl xl:text-2xl font-bold">
             Scrambled Eggs with Turkey Bacon and Sauteed Spinach
           </h2>
-          <p className="text-textLight text-[14px] font-medium">
+          <p className="text-textLight text-xs xl:text-sm font-medium">
             This nutritious breakfast combines high-quality protein and healthy
             fats to fuel your day. The scrambled eggs provide essential amino
             acids, while the turkey bacon adds a lean source of protein. Sautéed

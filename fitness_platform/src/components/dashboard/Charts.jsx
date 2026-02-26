@@ -3,10 +3,10 @@ import circularChart from "../../assets/images/pie-chart.png";
 
 const Charts = () => {
   return (
-    <div className="mt-6 flex flex-col gap-4 md:flex-row lg:w-234.75">
-      <div className="h-93 w-full rounded-[17px] bg-white shadow lg:w-114.25">
-        {/* Activity */}
-        <div className="mx-6 my-3 flex items-center justify-between text-sm md:text-base">
+    <div className="mt-6 flex flex-col gap-2 md:flex-row items-center">
+      {/* Activity */}
+      <div className="max-h-93 xl:w-114 rounded-[17px] bg-white shadow">
+        <div className="xl-gap-0 my-3 flex items-center justify-between px-2 text-sm lg:gap-4 xl:px-4 xl:text-base">
           <p className="font-medium">Activity</p>
           <div className="rounded-[10px] bg-[#F5F5F5] px-6 py-2">
             <p>Weekly</p>
@@ -16,8 +16,8 @@ const Charts = () => {
       </div>
 
       {/* Progress */}
-      <div className="h-87.25 w-full rounded-[17px] bg-white shadow lg:w-114.25">
-        <div className="mx-6 my-3 flex items-center justify-between text-sm md:text-base">
+      <div className="max-h-87.25 xl:w-114.25 rounded-[17px] bg-white shadow">
+        <div className="mx-6 my-3 flex items-center justify-between text-sm xl:text-base">
           <p className="font-medium">Progress</p>
           <div className="bg-[#F5F5F5] px-6 py-2">
             <p>Weekly</p>

@@ -1,7 +1,7 @@
 const DirectionCard = ({ step, text, description, isLast }) => {
   return (
     <div>
-      <div className="mb-2 flex gap-5 lg:mb-0 lg:w-[501.33px]">
+      <div className="mb-2 flex xl:gap-5 gap-2">
         <div className="flex flex-col items-center">
           {/* steps */}
           <div className="bg-accent/20 grid h-7.5 w-7.5 shrink-0 place-items-center rounded-[10px]">
@@ -15,10 +15,8 @@ const DirectionCard = ({ step, text, description, isLast }) => {
         </div>
 
         <div>
-          <p className="font-semibold lg:text-lg">{text}</p>
-          <p className="text-textLight text-xs font-medium md:text-sm">
-            {description}
-          </p>
+          <p className="font-semibold text-sm xl:text-lg">{text}</p>
+          <p className="text-textLight text-xs font-medium">{description}</p>
         </div>
       </div>
     </div>
